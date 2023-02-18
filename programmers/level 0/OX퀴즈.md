@@ -1,6 +1,7 @@
-// 2023-01-03
+# OX퀴즈
+🔗 <a href="https://school.programmers.co.kr/learn/courses/30/lessons/120907">120907</a>
 
-// solution(["3 - 4 = -3", "5 + 6 = 11"])
+```javascript
 const solution = quiz => {
     // 올바른 답을 계산하는 함수
     const calc = (sign, num1, num2) => {
@@ -15,3 +16,4 @@ const solution = quiz => {
     let quizAnswer = array.map(v => +v[4])
     return quizAnswer.map((v, i) => +v === answer[i] ? 'O' : 'X')
 }
+```
